@@ -185,9 +185,9 @@ class _HomePageState extends State<HomePage> {
                     setState(() {});
 
                     //limpiar
-                    // _controllerTitle.clear();
-                    // _controllerDescription.clear();
-                    // _controllerUrl.clear();
+                    _controllerTitle.clear();
+                    _controllerDescription.clear();
+                    _controllerUrl.clear();
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xffFFB800),
